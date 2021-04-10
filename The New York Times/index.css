@@ -1,0 +1,138 @@
+/* ABOUT US */
+
+*{
+    font-family: "New Tegomin", serif;
+    font-size: 18px;
+}
+  .about-us{
+      background-color: rgb(241, 239, 239);
+  }
+  .about{
+      padding: 60px;
+      height: 400px;
+  }
+ .about h2{
+     font-size: 40px;
+     font-weight: bold;
+      text-align: center;
+      color: rgb(10, 10, 56);
+  }
+  .about p{
+      text-align: center;
+      padding: 20px;
+      line-height: 30px;
+  }
+
+
+  /* CARD */
+.card-deck{
+    padding: 60px;
+}
+.card-title{
+    padding: 5px;
+    font-weight: bold;
+}
+.card :hover{
+    opacity: 0.9;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+
+
+/* ICON*/
+
+.icon{
+    font-size: 40px;
+    color: rgb(10, 10, 56);
+}
+
+
+/* BUTTON */
+.btn{
+    background-color: rgb(10, 10, 56);
+    color:white;
+}
+.btn:hover{
+    color: white;
+}
+
+/* NAvBar */
+.navbar{
+    background-color: white;
+    color: rgb(10, 10, 56);
+}
+.navbar-brand,
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(10, 10, 56);
+}
+
+.navbar-brand:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(10, 10, 56);
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(10, 10, 56);
+    border-bottom: 2px solid rgb(10, 10, 56);
+}
+
+/* FOOTER LIST */
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+ .links{
+    margin-top: 30px;
+   
+}
+.links li a{
+    color: rgb(10, 10, 56);
+    text-decoration: none;
+   padding-right: 4px;
+}
+
+.links li a:hover {
+    margin-bottom: 6px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(10, 10, 56);
+}
+
+ul li .icon-social{
+    margin-top: 15px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul li .icon-social:hover{
+    color: rgb(10, 10, 56);
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+
+/* CONTACT */
+#contact{
+    background-color: grey;
+    height: 350px;
+    font-size: 20px;
+    }
+    
+.footer-p{
+       margin-top: 40px;
+        padding: 30px;
+        text-align: center;
+        color: oldlace;
+    }
+
+      
+        
